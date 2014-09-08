@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528D43AB19BE42B9008577C6 /* ActiveSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D438519BE42B9008577C6 /* ActiveSocket.cpp */; };
+		528D43AC19BE42B9008577C6 /* HTTPActiveSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D438819BE42B9008577C6 /* HTTPActiveSocket.cpp */; };
+		528D43AD19BE42B9008577C6 /* PassiveSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D438A19BE42B9008577C6 /* PassiveSocket.cpp */; };
+		528D43AE19BE42B9008577C6 /* SimpleSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D438C19BE42B9008577C6 /* SimpleSocket.cpp */; };
+		528D43AF19BE42B9008577C6 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D439119BE42B9008577C6 /* Game.cpp */; };
+		528D43B019BE42B9008577C6 /* Hockeyist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D439319BE42B9008577C6 /* Hockeyist.cpp */; };
+		528D43B119BE42B9008577C6 /* Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D439719BE42B9008577C6 /* Move.cpp */; };
+		528D43B219BE42B9008577C6 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D439919BE42B9008577C6 /* Player.cpp */; };
+		528D43B319BE42B9008577C6 /* PlayerContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D439B19BE42B9008577C6 /* PlayerContext.cpp */; };
+		528D43B419BE42B9008577C6 /* Puck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D439D19BE42B9008577C6 /* Puck.cpp */; };
+		528D43B519BE42B9008577C6 /* Unit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D439F19BE42B9008577C6 /* Unit.cpp */; };
+		528D43B619BE42B9008577C6 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D43A119BE42B9008577C6 /* World.cpp */; };
+		528D43B719BE42B9008577C6 /* MyStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D43A319BE42B9008577C6 /* MyStrategy.cpp */; };
+		528D43B819BE42B9008577C6 /* RemoteProcessClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D43A519BE42B9008577C6 /* RemoteProcessClient.cpp */; };
+		528D43B919BE42B9008577C6 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D43A719BE42B9008577C6 /* Runner.cpp */; };
+		528D43BA19BE42B9008577C6 /* Strategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 528D43A919BE42B9008577C6 /* Strategy.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52A2BCF419BE419B009A7D24 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		528D438519BE42B9008577C6 /* ActiveSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActiveSocket.cpp; sourceTree = "<group>"; };
+		528D438619BE42B9008577C6 /* ActiveSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveSocket.h; sourceTree = "<group>"; };
+		528D438719BE42B9008577C6 /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Host.h; sourceTree = "<group>"; };
+		528D438819BE42B9008577C6 /* HTTPActiveSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HTTPActiveSocket.cpp; sourceTree = "<group>"; };
+		528D438919BE42B9008577C6 /* HTTPActiveSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPActiveSocket.h; sourceTree = "<group>"; };
+		528D438A19BE42B9008577C6 /* PassiveSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PassiveSocket.cpp; sourceTree = "<group>"; };
+		528D438B19BE42B9008577C6 /* PassiveSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassiveSocket.h; sourceTree = "<group>"; };
+		528D438C19BE42B9008577C6 /* SimpleSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleSocket.cpp; sourceTree = "<group>"; };
+		528D438D19BE42B9008577C6 /* SimpleSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSocket.h; sourceTree = "<group>"; };
+		528D438E19BE42B9008577C6 /* StatTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatTimer.h; sourceTree = "<group>"; };
+		528D439019BE42B9008577C6 /* ActionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionType.h; sourceTree = "<group>"; };
+		528D439119BE42B9008577C6 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		528D439219BE42B9008577C6 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		528D439319BE42B9008577C6 /* Hockeyist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hockeyist.cpp; sourceTree = "<group>"; };
+		528D439419BE42B9008577C6 /* Hockeyist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hockeyist.h; sourceTree = "<group>"; };
+		528D439519BE42B9008577C6 /* HockeyistState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HockeyistState.h; sourceTree = "<group>"; };
+		528D439619BE42B9008577C6 /* HockeyistType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HockeyistType.h; sourceTree = "<group>"; };
+		528D439719BE42B9008577C6 /* Move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Move.cpp; sourceTree = "<group>"; };
+		528D439819BE42B9008577C6 /* Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Move.h; sourceTree = "<group>"; };
+		528D439919BE42B9008577C6 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		528D439A19BE42B9008577C6 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		528D439B19BE42B9008577C6 /* PlayerContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerContext.cpp; sourceTree = "<group>"; };
+		528D439C19BE42B9008577C6 /* PlayerContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerContext.h; sourceTree = "<group>"; };
+		528D439D19BE42B9008577C6 /* Puck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Puck.cpp; sourceTree = "<group>"; };
+		528D439E19BE42B9008577C6 /* Puck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puck.h; sourceTree = "<group>"; };
+		528D439F19BE42B9008577C6 /* Unit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Unit.cpp; sourceTree = "<group>"; };
+		528D43A019BE42B9008577C6 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		528D43A119BE42B9008577C6 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		528D43A219BE42B9008577C6 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		528D43A319BE42B9008577C6 /* MyStrategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyStrategy.cpp; sourceTree = SOURCE_ROOT; };
+		528D43A419BE42B9008577C6 /* MyStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStrategy.h; sourceTree = SOURCE_ROOT; };
+		528D43A519BE42B9008577C6 /* RemoteProcessClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RemoteProcessClient.cpp; sourceTree = SOURCE_ROOT; };
+		528D43A619BE42B9008577C6 /* RemoteProcessClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteProcessClient.h; sourceTree = SOURCE_ROOT; };
+		528D43A719BE42B9008577C6 /* Runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = SOURCE_ROOT; };
+		528D43A819BE42B9008577C6 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = SOURCE_ROOT; };
+		528D43A919BE42B9008577C6 /* Strategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Strategy.cpp; sourceTree = SOURCE_ROOT; };
+		528D43AA19BE42B9008577C6 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = SOURCE_ROOT; };
+		52A2BCF619BE419B009A7D24 /* MyStrategy.out */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyStrategy.out; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A2BCF319BE419B009A7D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528D438419BE42B9008577C6 /* csimplesocket */ = {
+			isa = PBXGroup;
+			children = (
+				528D438519BE42B9008577C6 /* ActiveSocket.cpp */,
+				528D438619BE42B9008577C6 /* ActiveSocket.h */,
+				528D438719BE42B9008577C6 /* Host.h */,
+				528D438819BE42B9008577C6 /* HTTPActiveSocket.cpp */,
+				528D438919BE42B9008577C6 /* HTTPActiveSocket.h */,
+				528D438A19BE42B9008577C6 /* PassiveSocket.cpp */,
+				528D438B19BE42B9008577C6 /* PassiveSocket.h */,
+				528D438C19BE42B9008577C6 /* SimpleSocket.cpp */,
+				528D438D19BE42B9008577C6 /* SimpleSocket.h */,
+				528D438E19BE42B9008577C6 /* StatTimer.h */,
+			);
+			path = csimplesocket;
+			sourceTree = SOURCE_ROOT;
+		};
+		528D438F19BE42B9008577C6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				528D439019BE42B9008577C6 /* ActionType.h */,
+				528D439119BE42B9008577C6 /* Game.cpp */,
+				528D439219BE42B9008577C6 /* Game.h */,
+				528D439319BE42B9008577C6 /* Hockeyist.cpp */,
+				528D439419BE42B9008577C6 /* Hockeyist.h */,
+				528D439519BE42B9008577C6 /* HockeyistState.h */,
+				528D439619BE42B9008577C6 /* HockeyistType.h */,
+				528D439719BE42B9008577C6 /* Move.cpp */,
+				528D439819BE42B9008577C6 /* Move.h */,
+				528D439919BE42B9008577C6 /* Player.cpp */,
+				528D439A19BE42B9008577C6 /* Player.h */,
+				528D439B19BE42B9008577C6 /* PlayerContext.cpp */,
+				528D439C19BE42B9008577C6 /* PlayerContext.h */,
+				528D439D19BE42B9008577C6 /* Puck.cpp */,
+				528D439E19BE42B9008577C6 /* Puck.h */,
+				528D439F19BE42B9008577C6 /* Unit.cpp */,
+				528D43A019BE42B9008577C6 /* Unit.h */,
+				528D43A119BE42B9008577C6 /* World.cpp */,
+				528D43A219BE42B9008577C6 /* World.h */,
+			);
+			path = model;
+			sourceTree = SOURCE_ROOT;
+		};
+		52A2BCED19BE419B009A7D24 = {
+			isa = PBXGroup;
+			children = (
+				52A2BCF819BE419B009A7D24 /* MyStrategy */,
+				52A2BCF719BE419B009A7D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A2BCF719BE419B009A7D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A2BCF619BE419B009A7D24 /* MyStrategy.out */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A2BCF819BE419B009A7D24 /* MyStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				528D438419BE42B9008577C6 /* csimplesocket */,
+				528D438F19BE42B9008577C6 /* model */,
+				528D43A319BE42B9008577C6 /* MyStrategy.cpp */,
+				528D43A419BE42B9008577C6 /* MyStrategy.h */,
+				528D43A519BE42B9008577C6 /* RemoteProcessClient.cpp */,
+				528D43A619BE42B9008577C6 /* RemoteProcessClient.h */,
+				528D43A719BE42B9008577C6 /* Runner.cpp */,
+				528D43A819BE42B9008577C6 /* Runner.h */,
+				528D43A919BE42B9008577C6 /* Strategy.cpp */,
+				528D43AA19BE42B9008577C6 /* Strategy.h */,
+			);
+			path = MyStrategy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A2BCF519BE419B009A7D24 /* MyStrategy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A2BCFF19BE419B009A7D24 /* Build configuration list for PBXNativeTarget "MyStrategy" */;
+			buildPhases = (
+				52A2BCF219BE419B009A7D24 /* Sources */,
+				52A2BCF319BE419B009A7D24 /* Frameworks */,
+				52A2BCF419BE419B009A7D24 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStrategy;
+			productName = MyStrategy;
+			productReference = 52A2BCF619BE419B009A7D24 /* MyStrategy.out */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A2BCEE19BE419B009A7D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Cup;
+			};
+			buildConfigurationList = 52A2BCF119BE419B009A7D24 /* Build configuration list for PBXProject "cpp-cgdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52A2BCED19BE419B009A7D24;
+			productRefGroup = 52A2BCF719BE419B009A7D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A2BCF519BE419B009A7D24 /* MyStrategy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A2BCF219BE419B009A7D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528D43BA19BE42B9008577C6 /* Strategy.cpp in Sources */,
+				528D43B219BE42B9008577C6 /* Player.cpp in Sources */,
+				528D43AE19BE42B9008577C6 /* SimpleSocket.cpp in Sources */,
+				528D43B819BE42B9008577C6 /* RemoteProcessClient.cpp in Sources */,
+				528D43B619BE42B9008577C6 /* World.cpp in Sources */,
+				528D43B119BE42B9008577C6 /* Move.cpp in Sources */,
+				528D43B719BE42B9008577C6 /* MyStrategy.cpp in Sources */,
+				528D43B919BE42B9008577C6 /* Runner.cpp in Sources */,
+				528D43B019BE42B9008577C6 /* Hockeyist.cpp in Sources */,
+				528D43B419BE42B9008577C6 /* Puck.cpp in Sources */,
+				528D43AC19BE42B9008577C6 /* HTTPActiveSocket.cpp in Sources */,
+				528D43B519BE42B9008577C6 /* Unit.cpp in Sources */,
+				528D43AD19BE42B9008577C6 /* PassiveSocket.cpp in Sources */,
+				528D43AB19BE42B9008577C6 /* ActiveSocket.cpp in Sources */,
+				528D43B319BE42B9008577C6 /* PlayerContext.cpp in Sources */,
+				528D43AF19BE42B9008577C6 /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52A2BCFD19BE419B009A7D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		52A2BCFE19BE419B009A7D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		52A2BD0019BE419B009A7D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					ONLINE_JUDGE,
+				);
+				INSTALL_PATH = "$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME).out";
+			};
+			name = Debug;
+		};
+		52A2BD0119BE419B009A7D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)";
+				GCC_PREPROCESSOR_DEFINITIONS = ONLINE_JUDGE;
+				INSTALL_PATH = "$(PROJECT_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME).out";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A2BCF119BE419B009A7D24 /* Build configuration list for PBXProject "cpp-cgdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A2BCFD19BE419B009A7D24 /* Debug */,
+				52A2BCFE19BE419B009A7D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A2BCFF19BE419B009A7D24 /* Build configuration list for PBXNativeTarget "MyStrategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A2BD0019BE419B009A7D24 /* Debug */,
+				52A2BD0119BE419B009A7D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A2BCEE19BE419B009A7D24 /* Project object */;
+}
