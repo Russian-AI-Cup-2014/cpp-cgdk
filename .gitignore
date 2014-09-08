@@ -1,0 +1,12 @@
+/wipe.bat
+/UpgradeLog*.XML
+/_UpgradeReport_Files
+/cpp-cgdk.xcodeproj
+/ipch
+/cpp-cgdk*.ncb
+/cpp-cgdk*.sdf
+/cpp-cgdk*.suo
+/cpp-cgdk*.vcproj.user
+/cpp-cgdk*.vcproj.*.user
+/cpp-cgdk*.vcxproj.user
+/cpp-cgdk*.vcxproj.*.user
