@@ -32,3 +32,9 @@
 /cpp-cgdk*.vcproj.*.user
 /cpp-cgdk*.vcxproj.user
 /cpp-cgdk*.vcxproj.*.user
+
+# Mac 
+MyStrategy.xcodeproj
+MyStrategy.xcworkspace
+build
+obj
