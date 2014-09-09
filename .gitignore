@@ -23,7 +23,6 @@
 /wipe.bat
 /UpgradeLog*.XML
 /_UpgradeReport_Files
-/cpp-cgdk.xcodeproj
 /ipch
 /cpp-cgdk*.ncb
 /cpp-cgdk*.sdf
@@ -38,3 +37,8 @@ MyStrategy.xcodeproj
 MyStrategy.xcworkspace
 build
 obj
+
+*.xcworkspace
+xuserdata
+*.xcuserdatad
+
